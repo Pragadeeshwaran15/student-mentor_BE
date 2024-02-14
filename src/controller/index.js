@@ -3,12 +3,12 @@ const homePage = (req, res)=>{
     <h2>Mentor</h2>
     <ul>
 
-<li>GET Get All Mentors = api/mentors</li>
-<li>POST Add New Mentor = api/mentors</li>
-<li>DELETE Delete Mentor = api/mentors/:id</li>
-<li>GET Mentor Student List = api/mentors/students/:mentor_id</li>
-<li>PUT Edit Mentor = api/mentors/:id</li>
-<li>GET Get One Mentor = api/mentors/:id</li>
+<li> Get All Mentors = api/mentors</li>
+<li> Add New Mentor = api/mentors</li>
+<li> Delete Mentor = api/mentors/:id</li>
+<li> Mentor Student List = api/mentors/students/:mentor_id</li>
+<li> Edit Mentor = api/mentors/:id</li>
+<li> Get One Mentor = api/mentors/:id</li>
 
     </ul>
 
@@ -16,18 +16,18 @@ const homePage = (req, res)=>{
 
     <ul>
 
-    <li>GET Get All Student = api/student</li>
-    <li>POST Add New Student = api/student</li>
-    <li>DELETE Delete Student = api/student/:id</li>
-    <li>GET GEt One Studnt = api/student/:id</li>
-    <li>PUT Edit Sudent = api/student/:id</li>
+    <li>Get All Student = api/student</li>
+    <li>Add New Student = api/student</li>
+    <li> Delete Student = api/student/:id</li>
+    <li> GEt One Studnt = api/student/:id</li>
+    <li> Edit Sudent = api/student/:id</li>
 
     </ul>
 
     <h2>Assign</h2>
 
     <ul>
-    <li>POST Assign multy Student = api/assign/student/:batch/mentor/:mentor_id</li>
+    <li>POST Assign Student for a mentor = api/assign/student/:batch/mentor/:mentor_id</li>
     </ul>
 
     `);
